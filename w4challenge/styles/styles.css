@@ -1,0 +1,50 @@
+header{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+header:hover { color: black;}
+
+header p {color: white;
+text-align: center;
+font-size: small;
+margin: 20px auto;
+width: 40%;
+}
+body {
+    background-color: rgb(250, 149, 199);
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    font-size: 10px;
+    text-align: justify ;
+    line-height: 1em;
+    width: 20%;
+    margin: 50px auto;
+    font-display: block;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+
+    } 
+
+main p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto;
+    width: 30%;
+}
+
+footer {
+    background-color: rgb(250, 149, 199);
+    padding: 10px;
+    text-align: center;
+    color: black;
+    width: 30%;
+    margin: auto;
+}
