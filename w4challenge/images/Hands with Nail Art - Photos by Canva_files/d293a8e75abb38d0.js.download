@@ -1,9 +1,0 @@
-(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[2553],{
-
-/***/ 776189:
-function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(411921);self._fe4d99ebe0d2d259646a80d250150d47 = self._fe4d99ebe0d2d259646a80d250150d47 || {};(function(__c) {var ay,xgb,tgb;__c.Xx=function(a,b){const c=[],d=[];let e=0;for(const f of a)b(f,e)?c.push(f):d.push(f),e++;return[c,d]};__c.Yx=function(){return sgb.value};__c.Zx=function(){const a=tgb.box(null);return Object.create({},{current:{get:()=>a.get(),set:(0,__c.ugb)((b)=>a.set(b))}})};__c.$x=function(){const a=tgb.box(0),b=(0,__c.ugb)((c)=>a.set(a.get()+c));return{Component:vgb(()=>{wgb(()=>{b(1);return()=>b(-1)},[]);return null}),get isMounted(){return 0<a.get()}}};ay=__webpack_require__(168949);xgb=ay.createAtom;
-tgb=ay.observable;__c.ugb=ay.action;__c.ygb=ay.runInAction;var zgb=__webpack_require__(667294),vgb=zgb.memo,wgb=zgb.useEffect;var Agb=class{constructor(){this.window="undefined"!==typeof window?window:void 0;this.bS=xgb("DevicePixelRatio",()=>this.K8a(),()=>this.S8a());this.M$b=()=>{this.bS.reportChanged();this.S8a();this.K8a()}}K8a(){var a;(null===(a=this.window)||void 0===a?0:a.matchMedia)&&!this.match&&(this.match=this.window.matchMedia(`(resolution: ${this.window.devicePixelRatio}dppx)`),this.match.addListener(this.M$b))}S8a(){this.match&&(this.match.removeListener(this.M$b),this.match=void 0)}get value(){var a,b;this.bS.reportObserved();
-return null!==(b=null===(a=this.window)||void 0===a?void 0:a.devicePixelRatio)&&void 0!==b?b:1}},sgb=new Agb;}).call(self, self._fe4d99ebe0d2d259646a80d250150d47);}
-
-}])
-//# sourceMappingURL=sourcemaps/d293a8e75abb38d0.js.map
